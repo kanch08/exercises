@@ -1,0 +1,160 @@
+a
+{
+    text-decoration: none;
+    color: aqua;
+}
+.company_name
+{
+    color: aqua;
+    font-weight: bold;
+    font-size: x-large;
+}
+.quick
+{
+    float: right;
+    color: aqua;
+}
+.home
+{
+    margin-right: 20px;
+    float: right;
+    color: aqua;
+}
+.bug
+{
+    text-align: center;
+    border: rgba(0, 0, 0, 0.24) solid 1px;
+    background: rgba(0, 0, 0, 0.24);
+    padding: 20px;
+    font-weight: bold;
+    font-size: x-large;
+    color: white;
+}
+.form
+{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.content_form
+{
+    width: 100%;
+}
+.text_title
+{
+    float: left;
+}
+.color
+{
+    color: red;
+}
+.title
+{
+    box-sizing: content-box;
+    margin-top: 1%;
+    width: 99%;
+    float: left;
+}
+.description
+{
+    margin-top: 1%;
+    width: 99%;
+    float: left;
+    height: 50%;
+}
+.text_description
+{
+    padding: 2px;
+    float: left;
+}
+.description_text_area
+{
+    margin-top: 1%;
+    width: 100%;
+    height: 20%;
+}
+.operating_system_list
+{
+    background-color: aqua;
+    margin-top: 1%;
+    width: 100%;
+}
+.text_operating_system
+{
+    float: left;
+}
+.operating_system
+{
+    margin-top: 1%;
+}
+.float
+{
+    float: left;
+}
+.text_product
+{
+    float: left;
+}
+.product_list
+{
+    background-color: aqua;
+    margin-top: 1%;
+    width: 100%;
+}
+.product
+{
+    margin-top: 1%;
+}
+.text_version
+{
+    text-align: left;
+    display: block;
+}
+.text_licence
+{
+    text-align: left;
+    width: 100%;
+}
+.licence
+{
+    margin-top: 1%;
+    width: 100%;
+}
+.radio_licence
+{
+    text-align: left;
+}
+.severity
+{
+    margin-top: 1%;
+    width: 100%;
+}
+.severity_list
+{
+    background-color: aqua;
+    margin-top: 1%;
+    width: 100%;
+}
+.attachment
+{
+    margin-top: 1%;
+}
+.upload
+{
+    margin-top: 1%;
+    width: 100%;
+}
+.submit
+{
+    margin: 10px;
+    color: white;
+    border-radius: 4px;
+    background-color: aqua;
+    font-size: large;
+
+}
+.submit_button
+{
+    text-align: right;
+    border: rgba(0, 0, 0, 0.24) solid 1px;
+    background: rgba(0, 0, 0, 0.24);
+}

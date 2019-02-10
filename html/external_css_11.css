@@ -1,0 +1,97 @@
+.web_page
+{
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: rgba(0,0,0,0.24);
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+.header
+{
+    margin-left: 10%;
+    background-color: black;
+    width: 960px;
+}
+h1
+{
+    margin-top: 0%;
+    margin-left: 10%;
+    z-index: 1;
+    color: white;
+}
+.menu
+{
+    width: 960px;
+}
+.position_z
+{
+    margin-left: 1%;
+    margin-right: 1%;
+    z-index: 1;
+    background-color: white;
+}
+.navigation
+{
+    margin-left: 10%;
+    background-color: rgba(200,200,200,0.5);
+    padding: 0px;
+    color: white;
+    list-style-type: none;
+}
+.element
+{
+    display: inline-block;
+    margin-left: 20px;
+}
+.image_1
+{
+    margin-top: 1%;
+    margin-left: 10%;
+    background-color: black;
+    width: 960px;
+    height: 360px;
+}
+.content
+{
+    margin-top: 2%;
+    margin-left: 10%;
+    background-color: rgba(0,0,0,0.24);
+    width: 960px;
+}
+.transparent_content
+{
+    margin-top: 2%;
+    margin-left: 10%;
+    width: 960px;
+}
+.image_2
+{
+    width: 215px;
+    height: 315px;
+    background-color: black;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 2%;
+}
+.content_image_2
+{
+    display: block;
+    color: grey;
+}
+.footer
+{
+    margin-left: 10%;
+    width: 960px;
+    clear: both;
+    background-color: black;
+    color: grey;
+}
+.copyright
+{
+    margin-left: 10px;
+}
+.company_name
+{
+    float: right;
+    margin-right: 10px;
+}
