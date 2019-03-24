@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    let flattenArray = (main_arr) =>
+    {
+        var array = [];
+        while(main_arr.length) {
+            var value = main_arr.shift();
+            if(Array.isArray(value)) {
+                // this line preserve the order
+                main_arr = value.concat(main_arr);
+            } else {
+                array.push(value);
+            }
+        }
+        return array;
+    }
+    console.log(flattenArray([4,5,6,[7,8,9],10,11,12,[13,14,15]]));
+</script>
+
+</body>
+</html>
