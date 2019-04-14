@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Area</title>
+
+    <style>
+        .common {
+            height: 100px;
+            width:70%;
+            display: flex;
+            align-items: center;
+        }
+        .circleDiv{
+            background-color: #d1f2f0;
+        }
+        .rectangleDiv{
+            background-color: #faffcb;
+        }
+        .cylinderDiv{
+            background-color: #d1f2f0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="circleDiv common">
+        <input type="text" id="radius" placeholder="Enter Radius">
+        <button onclick="areaofCircle()">Area of Circle</button>
+        <p id="circle_area"></p>
+    </div>
+
+
+    <div class="rectangleDiv common">
+        <input type="text" id="length" placeholder="Enter Length">
+        <input type="text" id="breadth" placeholder="Enter Breadth">
+        <button onclick="areaofRectangle()">Area of Rectangle</button>
+        <p id="rectangle_area"></p>
+    </div>
+
+
+    <div class="cylinderDiv common">
+        <input type="text" id="radius1" placeholder="Enter Radius">
+        <input type="text" id="height" placeholder="Enter Height">
+        <button onclick="areaofCylinder()">Area of Cylinder</button>
+        <p id="cylinder_area"></p>
+    </div>
+
+    <script src="module56.js"></script>
+
+</body>
+</html>

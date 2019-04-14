@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>Combination of a string</title>
+</head>
+<body>
+
+
+<script>
+    //Map Implementation
+const map = new Map();
+map.set('hobby', 'cycling');
+
+const foods = { dinner: 'Curry', lunch: 'Sandwich', breakfast: 'Eggs' }; 
+const normalfoods = {};
+
+map.set(normalfoods, foods);
+
+for (const [key, value] of map) {
+  console.log(`${key} = ${value}`); 
+}
+
+map.forEach((value, key) => {
+  console.log(`${key} = ${value}`);
+}, map);
+
+map.clear();
+console.log(map.size === 0);
+
+//Set Implementation
+const planetsOrderFromSun = new Set();
+planetsOrderFromSun.add('Mercury');
+planetsOrderFromSun.add('Venus').add('Earth').add('Mars'); // Chainable Method
+console.log(planetsOrderFromSun.has('Earth')); // True
+
+planetsOrderFromSun.delete('Mars');
+console.log(planetsOrderFromSun.has('Mars')); // False
+
+for (const x of planetsOrderFromSun) {
+  console.log(x); // Same order in as out - Mercury Venus Earth
+}
+console.log(planetsOrderFromSun.size); // 3
+
+planetsOrderFromSun.add('Venus'); // Trying to add a duplicate
+console.log(planetsOrderFromSun.size); // Still 3, Did not add the duplicate
+
+planetsOrderFromSun.clear();
+console.log(planetsOrderFromSun.size); // 0
+
+
+</script>
+</body>
+</html>

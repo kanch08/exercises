@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset=utf-8 />
+    <title>Inheritance</title>
+</head>
+
+<body>
+
+
+    <script>
+        class Animal {
+            eats = "food";
+            static sleep() {
+                console.log("Animal is sleeping");
+            }
+        }
+        class Mammals extends Animal {
+            type = "viviparous";
+        }
+        class Lion extends Mammals {
+            runs = "fast";
+        }
+
+        var a = new Animal();
+        Animal.sleep();
+        console.log("Animal eats" + a.eats);
+        var m = new Mammals();
+        Mammals.sleep();
+        console.log("Mammal eats" + m.eats);
+        var l = new Lion();
+        console.log("Mammal eats" + l.eats);
+        console.log("Mammal eats" + l.type);
+        console.log("Mammal eats" + l.runs);
+
+    </script>
+</body>
+
+</html>
